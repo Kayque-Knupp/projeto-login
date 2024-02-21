@@ -6,6 +6,7 @@
     padding: 0px;
     font-size: 13px;
     color: rgb(49, 49, 49);
+   
 }
 body{
     background-color: #5f2c82;
@@ -19,8 +20,7 @@ section{
     width: 280px;
     height: 550px;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%,40%);
+    transform: translate(-50%,30%);
     border-radius: 21px;
     padding: 10px;
 }
@@ -55,6 +55,6 @@ div{
     width: 90%;
     margin-left: 14px;
 }
-.material-icons{
- 
+span.material-icons{
+   
 }
