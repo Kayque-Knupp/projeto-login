@@ -11,14 +11,15 @@
 body{
     background-color: #5f2c82;
 }
-#container{
+main{
     position: relative;
 }
 section{
     position: absolute;
     background-color: white;
     width: 280px;
-    height: 550px;
+    height: 520px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,30%);
     border-radius: 21px;
@@ -41,20 +42,13 @@ form input{
 #form-login p{
     margin: 10px;
 }
-div{
-    
-}
 #imagem-login > img{
     width: 300px;
     border-radius: 20px 20px 0px 0px ;
     transform: translate(-10px,-10px);
 }
-.dados{
-}
+
 .entradas{
     width: 90%;
     margin-left: 14px;
-}
-span.material-icons{
-   
 }
