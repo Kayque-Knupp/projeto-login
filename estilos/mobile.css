@@ -24,10 +24,22 @@ section{
     border-radius: 21px;
     padding: 10px;
 }
+form input{
+    height: 40px;
+    width:80%;
+    border-radius: 8px;
+    margin: 5px;
+    text-indent: 5px;
+    
+}
 #form-login h1{
+    margin: 10px;
     text-align: center;
     font-size: 1.5em;
     font-weight: 800;
+}
+#form-login p{
+    margin: 10px;
 }
 div{
     
@@ -36,4 +48,13 @@ div{
     width: 300px;
     border-radius: 20px 20px 0px 0px ;
     transform: translate(-10px,-10px);
+}
+.dados{
+}
+.entradas{
+    width: 90%;
+    margin-left: 14px;
+}
+.material-icons{
+ 
 }

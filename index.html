@@ -18,11 +18,16 @@
                     <h1>Login</h1>
                     <p>Seja bem vindo(a) novamente. Faça seu login para ter acesso as configurações no seu ambiente</p>
                     <form action="login.php" method="post">
-                        <input type="email" placeholder="seu e-mail" required>
-                        <input type="password" placeholder="sua senha"><br>
-                        <input  type="submit" value="Entrar">
+                        <div class="dados">
+                            <span class="material-icons">person</span> <input type="email" placeholder="seu e-mail" required>
+                        </div>
+                        <div class="dados">
+                            <span class="material-icons">key</span>
+                            <input type="password" placeholder="sua senha"><br>
+                        </div>
+                        <input class="entradas" type="submit" value="Entrar">
                         <br>
-                        <input type="reset" value="Esqueci a senha">
+                        <input class="entradas" type="reset" value="Esqueci a senha">
                     </form>
                 </div>
             </section>
