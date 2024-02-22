@@ -6,7 +6,6 @@
     padding: 0px;
     font-size: 13px;
     color: rgb(49, 49, 49);
- 
 }
 body{
     background-color: #5f2c82;
@@ -17,7 +16,7 @@ body{
     position: relative;
 }
 section{
-    margin-top: ;
+    margin-top: 300px;
     position: absolute;
     background-color: white;
     width: 280px;
