@@ -15,23 +15,22 @@
         display: inline-block;
     }
     #imagem-login > img{
-        height: 322px;
-        width: 190px;
+        height: 321.4px;
+        width: 200px;
         border-radius: 20px 0px 0px 20px;
     }
     #form-login{
         display: inline-block;
         position: absolute;
-        width: 60%;
+        width: 55%;
     }
-    .dados{
-        
+    .dados{  
         width: 100%;
         text-align: center;
     }
     .entradas{
-        width: 85%;
-        margin-left: 8%;
+        width: 81%;
+        margin-left: 12%;
     }
     
 }

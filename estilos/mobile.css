@@ -5,7 +5,7 @@
     margin: 0px;
     padding: 0px;
     font-size: 13px;
-    color: rgb(49, 49, 49);
+    color: #313131;
 }
 body{
     background-color: #00315f;
@@ -52,8 +52,8 @@ span.material-icons{
     vertical-align: bottom;
 }
 .entradas{
-    width: 90%;
-    margin-left: 14px;
+    width: 80%;
+    margin-left: 12%;
 }
 .entradas:hover{
     background-color: #004f82;
