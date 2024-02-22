@@ -8,25 +8,21 @@
     color: rgb(49, 49, 49);
 }
 body{
-    background-color: #5f2c82;
+    background-color: #00315f;
 }
 #container{
-    width: 100vw;
-    display: block;
-    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 section{
-    margin-top: 300px;
-    position: absolute;
     background-color: white;
     width: 280px;
     height: 520px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     border-radius: 21px;
     padding: 10px;
-   
+    box-shadow: 7px 8px 23px #00162b;
 }
 form input{
     height: 40px;
@@ -35,6 +31,7 @@ form input{
     margin: 5px;
     text-indent: 5px;
 }
+
 #form-login h1{
     margin: 10px;
     text-align: center;
@@ -49,9 +46,7 @@ form input{
     border-radius: 20px 20px 0px 0px ;
     transform: translate(-10px,-11px);
 }
-.dados:hover{
 
-}
 span.material-icons{
     height: 40px;
     vertical-align: bottom;
@@ -61,6 +56,6 @@ span.material-icons{
     margin-left: 14px;
 }
 .entradas:hover{
-    background-color: #73369c;
+    background-color: #004f82;
     color: white;
 }

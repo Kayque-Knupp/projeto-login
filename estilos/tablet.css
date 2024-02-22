@@ -1,6 +1,37 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px) {
-    
+    *{
+        transition-duration: 0.2s;
+    }
+    body{
+        background-image: linear-gradient(to bottom, #7b879d,#004f82, #00315f);
+    }
+    section{
+        width: 80vw;
+        height: 300px ;
+    }
+    #imagem-login{
+        display: inline-block;
+    }
+    #imagem-login > img{
+        height: 322px;
+        width: 190px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    #form-login{
+        display: inline-block;
+        position: absolute;
+        width: 60%;
+    }
+    .dados{
+        
+        width: 100%;
+        text-align: center;
+    }
+    .entradas{
+        width: 85%;
+        margin-left: 8%;
+    }
     
 }
