@@ -6,7 +6,7 @@
     padding: 0px;
     font-size: 13px;
     color: rgb(49, 49, 49);
-   
+ 
 }
 body{
     background-color: #5f2c82;
@@ -24,6 +24,7 @@ section{
     transform: translate(-50%,30%);
     border-radius: 21px;
     padding: 10px;
+   
 }
 form input{
     height: 40px;
@@ -31,7 +32,6 @@ form input{
     border-radius: 8px;
     margin: 5px;
     text-indent: 5px;
-    
 }
 #form-login h1{
     margin: 10px;
@@ -45,10 +45,20 @@ form input{
 #imagem-login > img{
     width: 300px;
     border-radius: 20px 20px 0px 0px ;
-    transform: translate(-10px,-10px);
+    transform: translate(-10px,-11px);
 }
+.dados:hover{
 
+}
+span.material-icons{
+    height: 40px;
+    vertical-align: bottom;
+}
 .entradas{
     width: 90%;
     margin-left: 14px;
+}
+.entradas:hover{
+    background-color: #73369c;
+    color: white;
 }
